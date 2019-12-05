@@ -29,7 +29,9 @@ using namespace std;
 vector<vector<int>> generatePascalsTriangle(int numRows) {
 	vector<int> vecRow;
 	vector<vector <int>> vecPascal;
-	if (0 == numRows) { return vecPascal; }
+	if (0 == numRows) { 
+		return vecPascal;
+	}
 
 	// 1 row
 	vecRow.push_back(1);
